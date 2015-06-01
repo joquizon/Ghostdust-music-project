@@ -1,0 +1,63 @@
+
+@font-face {font-family: ghostdust;
+							src:url(ghostdust.ttf);}
+
+@font-face {font-family: helvetica;
+							src:url(helvconlight.otf);}  
+
+body { background-color:black
+			}
+
+.logoholder {width: 600px;
+				height:600px;
+					top:50%;
+						left:50%;
+							margin-top:-150px;
+								margin-left:-300px;
+									position:fixed;
+										background-color:black;}
+
+
+#wordmark {color:white;
+				font-family: ghostdust;
+					font-size: 160px;
+						margin-left:100px;
+							margin-top:-50px}
+
+.explanation {
+						color:rgb( 52, 177, 232);
+							
+								
+										font-size: 45px;
+					font-family: helvetica;
+						letter-spacing: 2px;
+						bottom-margin:0px;
+						}
+
+.textholder {background-color: black;
+	width:407px;
+				height:935px;
+					float:left;
+					padding:7px;
+					
+							margin-top: 19px;
+								margin-left: 255px;
+									display: inline-block;}
+
+.textholder1 {background-color: black;
+	width:407px;
+				height:810px;
+					float:left;
+					padding:7px;
+					
+							margin-top: 73px;
+								margin-left: 255px;
+									display: inline-block;}
+
+
+
+#ghostinfo {color:white;
+				font-size: 19px;
+					font-family: helvetica;
+						letter-spacing: 2px;
+							word-spacing:3px;}
