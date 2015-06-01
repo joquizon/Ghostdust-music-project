@@ -6,16 +6,59 @@
 
 	<body>
 
+			<nav id="navig">
+			
+			<ul>
+				
+				<li >
+					<a href="index1.html">
+						<img class="icon" src="iconhome.jpg"
+								onmouseover="this.src='iconhomemoused.jpg'"
+									onmouseout="this.src='iconhome.jpg'">
+					</a>
+				</li>
+
+				<li >
+					<a href="home.html">
+						<img class="icon" src="iconabout.jpg"
+								onmouseover="this.src='iconaboutmoused.jpg'"
+									onmouseout="this.src='iconabout.jpg'">
+					</a>
+				</li>
+
+				<li >
+					<a href="">
+					<img class="icon" src="iconaudio.jpg"
+								onmouseover="this.src='iconaudiomoused.jpg'"
+									onmouseout="this.src='iconaudio.jpg'">
+					</a>
+				</li>
+
+				<li >
+					<a href="">
+					<img class="icon" src="iconphoto.jpg"
+								onmouseover="this.src='iconphotomoused.jpg'"
+									onmouseout="this.src='iconphoto.jpg'">
+				</li>
+
+			</ul>
+
+		</nav>
+
+
 		<div class="logoholder">
 			
-			<a href="home.html">
+			<a href="#">
 			<img src="ghostdustlogo-01.png"
 							style="height:70%;
 										width:70%;
 											margin-left:100px"
 												onmouseover="this.src='logosmiler.gif'"
-													onmouseout="this.src='ghostdustlogo-01.png'">
+													onmouseout="this.src='ghostdustlogo-01.png'"
+														onmousedown="this.src='logosmilerclick.gif'">
+			
 			</a>
+
 			
 			<p id="wordmark">
 				Ghostdust
@@ -29,7 +72,7 @@
 		</div>
 
 			
-		<audio autoplay>
+		<audio >
 			<source src="noplastic.ogg"
 						type="audio/ogg">
 			<source src="noplastic.mp3"
