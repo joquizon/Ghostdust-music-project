@@ -5,14 +5,18 @@
 @font-face {font-family: helvetica;
 							src:url(helvconlight.otf);}  
 
+@font-face {font-family: codeb;
+							src:url(CODEBold.otf);}
+
 #navig {position:fixed;
 			margin-left:-35px;
-				z-index:1;}
+				z-index:1;
+					width:100px;}
 
 ul {list-style-type: none}
-.icon {height:15%;
-				width:15%;}
-body { background-color:black
+.icon {height:100%;
+				width:100%;}
+body { background-color:black;
 			}
 
 .logoholder {width: 600px;
@@ -31,6 +35,15 @@ body { background-color:black
 						margin-left:100px;
 							margin-top:-50px}
 
+.divtop  {width:6000px;
+				height:275px;
+					background-color:black;}
+
+.divtop1  {width:6000px;
+				height:400px;
+					background-color:black;}	
+												
+
 .explanation {
 						color:rgb( 255, 157, 0);
 							
@@ -42,29 +55,124 @@ body { background-color:black
 						}
 
 .textholder {background-color: black;
-	width:407px;
-				height:935px;
+	width:600px;
+	
+				height:395px;
 					float:left;
-					padding:7px;
-					
-							margin-top: 19px;
-								margin-left: 255px;
-									display: inline-block;}
+
+				margin-left: 200px;
+								
+									}
 
 .textholder1 {background-color: black;
-	width:407px;
-				height:810px;
+	width:600px;
+				height:395px;
 					float:left;
-					padding:7px;
 					
-							margin-top: 73px;
-								margin-left: 255px;
-									display: inline-block;}
+
+						margin-left:200px;
+							margin-top: 54px;
+								
+								}
+
+#bg1 {background-image: url("mainaudio.jpg");
+			background-size: 100%;
+				background-repeat: no-repeat;
+					width:1280px;
+						height:800px;}
+
+#bg2 {background-image: url("youtwinkle2.jpg");
+			background-size: 100%;
+				background-repeat: no-repeat;
+					width:1280px;
+						height:800px;}
+
+#bg3 {background-image: url("leaving1.jpg");
+			background-size: 100%;
+				background-repeat: no-repeat;
+					width:1280px;
+						height:800px;}
+
+#bg4 {background-image: url("fiona1.jpg");
+			background-size: 100%;
+				background-repeat: no-repeat;
+					width:1280px;
+						height:800px;}
+
+#bg5 {background-image: url("mci1.jpg");
+			background-size: 100%;
+				background-repeat: no-repeat;
+					width:1280px;
+						height:800px;}
+
 
 
 
 #ghostinfo {color:white;
-				font-size: 19px;
+				font-size: 16px;
 					font-family: helvetica;
 						letter-spacing: 2px;
 							word-spacing:3px;}
+
+a:active {color:white;
+				opacity: .5;
+				background-color: none;
+					text-decoration: none;}
+
+#traxlist {margin-top:450px;
+			margin-left: 35px;
+				position:absolute;}
+
+#trax {color:white;
+			opacity:.5;
+				font-family: codeb;
+					display:inline-block;
+						list-style-type: none;
+							font-size:40px;
+								letter-spacing: 2px;
+									word-spacing: -15px}
+
+#trax a:hover {
+					color:white;
+				opacity: .5;
+				background-color: none;
+					text-decoration: none;}
+
+#trax a:link{color:white;
+				opacity: .5;
+				background-color: none;
+					text-decoration: none;}
+#trax a:visited{color:white;
+				opacity: .5;
+				background-color: none;
+					text-decoration: none;}
+#trax a:hover{color:white;
+				opacity: 1;
+				background-color: none;
+					text-decoration: none;}
+
+.hovertext {position:relative;}
+
+.hovertext span {position:relative;
+							left:0%;
+								top:100%;
+									display:none; 
+										z-index:99;
+											color:white;}
+	
+.hovertext:hover span {display:inline-block;}
+
+
+.icon1 {height:100%;
+				width:100%;}
+
+#traxplayer {
+			opacity:.5;
+				padding:4px;
+					display:inline-block;
+						list-style-type: none;
+						height:25px;
+						width:25px}
+
+
+
