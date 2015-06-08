@@ -36,6 +36,8 @@ body { background-color:black;
 						margin-left:100px;
 							margin-top:-50px}
 
+#homebod {padding:200px;}
+
 .divtop  {width:6000px;
 				height:275px;
 					background-color:black;}
@@ -49,62 +51,75 @@ body { background-color:black;
 					font-size: 45px;
 						font-family: helvetica;
 							letter-spacing: 2px;
-							bottom-margin:0px;}
+							bottom-margin:0px;
+								margin-left: auto;
+									margin-right: auto;}
 
 .textholder {background-color: black;
+					padding-left: 200px;
 					width:600px;
 						height:395px;
 							float:left;
-								margin-left: 200px;}
+								margin-left: auto;
+									margin-right: auto;}
 
 .textholder1 {background-color: black;
+					padding-left: 200px;
 					width:600px;
 						height:395px;
 							float:left;
-								margin-left:200px;
+								margin-left: auto;
+									margin-right: auto;
 									margin-top: 54px;}
 
 #bg1 {background-image: url("mainaudio.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg2 {background-image: url("youtwinkle2.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg3 {background-image: url("leaving1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg4 {background-image: url("fiona1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg5 {background-image: url("mci1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg6 {background-image: url("chopdrone1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg7 {background-image: url("emily1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg8 {background-image: url("sowetomare1.jpg");
 			background-size: 100%;
@@ -113,22 +128,25 @@ body { background-color:black;
 						height:800px;}
 
 #bg9 {background-image: url("airplane1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg10 {background-image: url("noplastic1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #bg11 {background-image: url("tinkerbell1.jpg");
-			background-size: 100%;
-				background-repeat: no-repeat;
-					width:1280px;
-						height:800px;}
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
 
 #ghostinfo {color:white;
 				font-size: 16px;
@@ -146,11 +164,11 @@ a:active {color:white;
 				position:absolute;}
 
 #trax {color:white;
-			opacity:.5;
+			opacity:.6;
 				font-family: codeb;
-					display:inline-block;
+					display:inline;
 						list-style-type: none;
-							font-size:40px;
+							font-size:90px;
 								letter-spacing: 2px;
 									word-spacing: -15px}
 
@@ -190,8 +208,7 @@ a:active {color:white;
 				padding:4px;
 					display:inline-block;
 						list-style-type: none;
-							height:25px;
-								width:25px}
-
+							height:35px;
+								width:35px}
 
 
